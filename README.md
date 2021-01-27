@@ -1,4 +1,4 @@
-# HarryPotterQuiz
+# harry-potter-quiz
 
  My first application made just to introduce me to android studio
 
