@@ -13,7 +13,7 @@
         android:layout_height="70dp"
         android:layout_marginBottom="124dp"
         android:fontFamily="@font/hpfont"
-        android:text="Harry Potter Quiz"
+        android:text="@string/harry_potter_quiz"
         android:textColor="@color/colorDefault"
         android:textSize="65sp"
         android:textStyle="bold"
