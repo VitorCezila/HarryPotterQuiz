@@ -3,6 +3,7 @@ package com.example.hpquiz
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import com.example.hpquiz.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
