@@ -5,7 +5,6 @@
     tools:context="com.example.android.navigation.GameFragment">
 
     <data>
-
         <variable
             name="game"
             type="com.example.hpquiz.GameFragment" />
@@ -19,7 +18,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/frameLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_background">
 
             <ImageView
                 android:id="@+id/questionImage"
@@ -47,6 +47,7 @@
                 android:layout_marginBottom="@dimen/vertical_margin"
                 android:fontFamily="sans-serif"
                 android:text="@{game.currentQuestion.text}"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/question_text_size"
                 android:textStyle="bold"
                 android:typeface="normal"
@@ -75,6 +76,7 @@
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:checked="true"
                     android:text="@{game.answers[0]}"
+                    android:textColor="@color/colorAccent"
                     android:textSize="@dimen/answer_text_size"
                     tools:text="Blue" />
 
@@ -84,6 +86,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[1]}"
+                    android:textColor="@color/colorAccent"
                     android:textSize="@dimen/answer_text_size"
                     tools:text="Green" />
 
@@ -93,6 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[2]}"
+                    android:textColor="@color/colorAccent"
                     android:textSize="@dimen/answer_text_size"
                     tools:text="Yellow" />
 
@@ -101,6 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@{game.answers[3]}"
+                    android:textColor="@color/colorAccent"
                     android:textSize="@dimen/answer_text_size"
                     tools:text="Red" />
             </RadioGroup>
